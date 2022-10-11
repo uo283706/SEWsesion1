@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!--Datos que describen el documento-->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Sara Lamuño" >
+    <meta name ="description" content ="aquí cada documento debe tener la descripción del contenido concreto del mismo" >
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" >
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" >
+
+   
+    <!--Añadir el elemento link de enlace a la hoja de estilo dento del <head> del documento html-->
+    <title>Ruby-Versiones</title>
+    <link rel="stylesheet" type="text/css" href="Estilo/estilo.css" >
+
+    <!--Para aumentar imágenes en fotos redimensionar-->
+
+</head> 
+
+<body>
+    <!--ARREGLAR-->
+    <!--Datos con el contenido que aparece eb el navegador-->
+    <img src= "Multimedia/LogoRuby1.png" alt= "Logo de Ruby">
+    
+    <h1>RUBY</h1>
+    <h2>Principales versiones y sus respectivos cambios en Ruby:</h2>
+    <p>
+        <h2>Ruby 1.8</h2>
+
+        <p>Se lanzó inicialmente en agosto de 2003, se mantuvo estable durante mucho tiempo y se retiró en junio de 2013.</p>
+        
+        <p>Ha sido objeto de varios estándares de la industria. Las especificaciones de idioma para Ruby fueron desarrolladas por el Centro de Promoción 
+            de Estándares Abiertos de la Agencia de Promoción de Tecnologías de la Información para su presentación al Comité de Normas 
+            Industriales de Japón (JISC) y luego a la Organización Internacional de Normalización (ISO).
+            Fue aceptado como norma industrial japonesa (JIS X 3017) en 2011 y como norma internacional ( ISO / IEC 30170 ) en 2012.</p>
+        
+        <p>Alrededor de 2005, el interés en el lenguaje Ruby surgió junto con Ruby on Rails , un marco web escrito en Ruby. Con frecuencia se atribuye 
+            a Rails el aumento de la conciencia de Ruby.</p>
+
+        <h2>Ruby 1.9</h2>
+        
+        <p>Fue lanzado el día de Navidad de 2007. Ruby pasó de tener una licencia doble bajo la Licencia 
+            Ruby y la GPL a tener una licencia doble bajo la Licencia Ruby y la licencia BSD de dos cláusulas. </p>
+        <p>La adopción de 1.9 fue ralentizada por cambios de 1.8 que requirieron la reescritura de muchas gemas populares de terceros .</p>
+        
+        <p>Ruby 1.9 introduce muchos cambios significativos sobre la serie 1.8:</p>
+        <ol>
+            <li>Bloquear variables locales (variables que son locales al bloque en el que se declaran)</li>
+            <li>Una sintaxis lambda adicional :f = ->(a,b) { puts a + b }</li>
+            <li>Una sintaxis literal de Hash adicional usando dos puntos para las claves de símbolo:{symbol_key: "value"} == {:symbol_key => "value"}</li>
+            <li>Se admiten codificaciones de caracteres por cadena</li>
+            <li>Nueva API de socket ( soporte IPv6 )</li>
+            <li>Require relativa seguridad de importación</li>
+        </ol>
+           
+        
+        <h2>Ruby 2.0</h2>
+
+        <p>Ruby 2.0 estaba destinado a ser totalmente compatible con versiones anteriores de Ruby 1.9.3. 
+            A partir del lanzamiento oficial 2.0.0 del 24 de febrero de 2013, solo había cinco incompatibilidades conocidas (menores).</p>
+        
+        Ruby 2.0 agregó varias características nuevas, que incluyen:
+        <ol>
+            <li>Argumentos de la palabra clave del método.</li>
+            <li>Un nuevo método, Module#prepend, para extender una clase</li>
+            <li>Un nuevo literal para crear una matriz de símbolos</li>    
+            <li>Nueva API para la evaluación diferida de Enumerables</li>
+            <li>Una nueva convención de usar #to_h para convertir objetos a Hashes.</li>
+
+        </ol>
+            
+        <h2>Ruby 2.1</h2>
+        
+        <p>Se lanzó el día de Navidad de 2013. El lanzamiento incluye aceleraciones, correcciones de errores y actualizaciones de la biblioteca.</p>
+        
+        <p>La política de control de versiones de Ruby se parece más al control de versiones semántico. </p>
+        <p>Aunque similar, la política de versiones de Ruby no es compatible con las versiones semánticas:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th> Ruby </th>
+                    <th> Control de versiones semántico </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MAYOR</td>
+                    <th>Control de versiones semántico</th>
+                </tr>
+                <tr>
+                    <td>MAYOR</td>
+                    <th>Aumentado cuando el cambio es incompatible que no se puede lanzar en MENOR. Reservado para eventos especiales</th>
+                </tr>
+                <tr>
+                    <td>MENOR</td>
+                    <th>Aumenta cada Navidad, puede ser incompatible con API</th>
+                </tr>
+                <tr>
+                    <td>MENOR</td>
+                    <th>Aumenta cuando agrega funcionalidad de una manera compatible con versiones anteriores</th>
+                </tr>
+                <tr>
+                    <td>TEENY</td>
+                    <th>Seguridad o corrección de errores que mantiene la compatibilidad con API. Puede aumentarse más de 10 (como 2.1.11) y se publicará cada 2-3 meses</th>
+                </tr>
+                <tr>
+                    <td>PARCHE</td>
+                    <th>Aumenta cuando realiza correcciones de errores compatibles con versiones anteriores</th>
+                </tr>
+                <tr>
+                    <td>PARCHE</td>
+                    <th>Número de confirmaciones desde la última versión MINOR (se restablecerá a 0 cuando se libere MINOR)</th>
+                </tr>
+                    
+                    
+                   
+                
+            </tbody>
+            
+        </table>
+        
+        
+        <h2>Ruby 2.2</h2>
+        
+        <p>Se lanzó el día de Navidad de 2014. La versión incluye aceleraciones, correcciones de errores y actualizaciones de bibliotecas 
+        y elimina algunas API obsoletas.</p> 
+        <p>En particular, introduce cambios en el manejo de la memoria: un recolector de basura incremental, 
+        soporte para la recolección de basura de símbolos y la opción de compilar directamente contra jemalloc.</p> 
+        <p>También contiene soporte experimental para usar vfork (2) con system () y spawn (), y soporte adicional para la especificación Unicode 7.0.</p>
+        
+        <p>Las características que se hicieron obsoletas o se eliminaron incluyen callcc, la biblioteca DL, 
+            Digest :: HMAC, lib / racional.rb, lib / complex.rb, GServer, Logger :: Application, así como varias funciones de la API de C. </p> 
+        
+        <h2>Ruby 2.3</h2>
+
+        <p>Ruby 2.3.0 se lanzó el día de Navidad de 2015. Algunos cambios notables incluyen:</p>
+        <ol>
+            <li>La capacidad de marcar todos los literales de cadena como congelados de forma predeterminada con un gran aumento del rendimiento en las operaciones de cadena. </li>
+            <li>Comparación de hash para permitir la verificación directa de pares clave / valor en lugar de solo claves.</li>
+            <li>Un nuevo operador de navegación seguro &. que puede facilitar el manejo nulo (por ejemplo, en lugar de , podemos usar ).if obj && obj.foo && obj.foo.barif obj&.foo&.bar</li>
+            <li>La gema did_you_mean ahora se incluye de forma predeterminada y se requiere en el inicio para sugerir automáticamente coincidencias de nombres similares en un NameError o NoMethodError .</li>
+            <li>Hash # dig y Array # dig para extraer fácilmente valores profundamente anidados (por ejemplo , dado , el valor Foo Baz ahora se puede recuperar ).profile = { social: { wikipedia: { name: 'Foo Baz' } } }profile.dig(:social, :wikipedia, :name)</li>
+            <li>.grep_v(regexp) que coincidirá con todos los ejemplos negativos de una expresión regular dada, además de otras características nuevas.</li>
+
+        </ol>
+            
+        <p>La rama 2.3 también incluye muchas mejoras de rendimiento, actualizaciones y correcciones de errores, incluidos cambios en la llamada Proc #, uso de Socket y IO de palabras clave de excepción, manejo de nombres de Thread #, conexiones Net :: FTP pasivas predeterminadas y Rake eliminado de stdlib.</p>
+        <h2>Ruby 2.4</h2>
+
+        <p>Ruby 2.4.0 se lanzó el día de Navidad de 2016.</p> 
+        <p>Algunos cambios notables incluyen:</p>
+        <ol>
+            <li>Binding # irb: Inicie una sesión REPL similar a binding.pry</li>
+            <li>Unificar Fixnum y Bignum en Entero clase</li>
+            <li>String admite asignaciones de mayúsculas y minúsculas Unicode, no solo ASCII</li>
+            <li> Un nuevo método, Regexp # match ?, que es una versión booleana más rápida de Regexp # match</li>
+            <li>La detección de interbloqueo de subprocesos ahora muestra subprocesos con su seguimiento y dependencia</li>
+    
+        </ol>
+        <p>La rama 2.4 también incluye mejoras de rendimiento para la tabla hash, Array # max, Array # min y el acceso a variables de instancia.</p>
+
+        <h2>Ruby 2.5</h2>
+
+        <p>Ruby 2.5.0 se lanzó el día de Navidad de 2017. </p>
+        <p>Algunos cambios notables incluyen:</p>
+        <ol>
+            <li>Las declaraciones de rescate y aseguramiento usan automáticamente un bloque do-end circundante (menos necesidad de bloques extra de inicio y fin )</li> 
+            <li>Encadenamiento de métodos con yield_self</li>
+            <li>Soporte de cobertura de sucursales y medición de cobertura de método</li>
+            <li>Transformaciones Hash más fáciles con Hash # slice y Hash # transform_keys</li>
+
+        </ol>
+
+        <p>Además de eso, vienen muchas mejoras de rendimiento, como un paso de bloques más rápido (3 veces más rápido), Mutexes más rápidos, plantillas ERB más rápidas y mejoras en algunos métodos de concatenación.</p>
+
+        <h2>Ruby 2.6</h2>
+
+        <p>Ruby 2.6.0 se lanzó el día de Navidad de 2018.</p>
+        <p>Algunos cambios notables incluyen:</p>
+        <ol>
+            <li>JIT (experimental)</li>
+            <li>RubyVM :: AbstractSyntaxTree (experimental)</li>
+        </ol>
+
+        <h2>Ruby 2.7</h2>
+
+        <p>Ruby 2.7.0 se lanzó el día de Navidad de 2019.</p>
+        <p>Algunos cambios notables incluyen:</p>
+        <ol>
+            <li>Coincidencia de patrones (experimental)</li>
+            <li>Mejora de REPL</li>
+            <li>Compactación GC</li>
+            <li>Separación de argumentos posicionales y de palabras clave</li>
+        </ol>
+
+        <h2>Ruby 3.0</h2>
+
+            <p>Ruby 3.0.0 se lanzó el día de Navidad de 2020. Se conoce como Ruby 3x3. Uno de sus principales objetivos era cambiar el intérprete a un compilador Just-In-Time, para hacer que los programas fueran más rápidos.</p>
+
+        <img src= "Multimedia/HTML5-1.png" alt= "¡En HTML5 válido!" >
+        <img src= "Multimedia/CSS3-1.png" alt= "¡En CSS válido!" >
+        <address>
+            <p> Página web realizada por:
+            <a href="mailto:uo283706@uniovi.es">
+            Sara Lamuño</a></p>
+        </address>
+
+    
+
+    
+ 
+
+</body>
+</html>
+
+
+
+
