@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!--Datos que describen el documento-->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Sara Lamuño" >
+    <meta name ="description" content ="aquí cada documento debe tener la descripción del contenido concreto del mismo" >
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" >
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" >
+
+    <title>Ruby-Formulario</title>
+    <!--Añadir el elemento link de enlace a la hoja de estilo dento del <head> del documento html-->
+    <link rel="stylesheet" type="text/css" href="Estilo/estilo.css" >
+
+</head> 
+
+<body>
+    <!--Datos con el contenido que aparece eb el navegador-->
+    <img src= "Multimedia/LogoRuby1.png" alt= "Logo de Ruby" >
+    <form>
+        <h1>¿Qué te ha parecido Ruby?</h1>
+        <fieldset>
+            <h2>Datos personales:</h2>
+            <p><label>Nombre: </label><input name="custname" required type="text"></p>
+            <p><label>Apellidos: </label><input name="custapell" required type="text"> </p>
+            <p><label>Edad: </label><input name="custage" required type="number"> </p>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <p><label> <input type=radio name=size  required value="Hombre"> Hombre </label></p>
+                <p><label> <input type=radio name=size  required value="Mujer"> Mujer </label></p>
+            </fieldset>
+            <p><label>Email: </label><input name="custage" required type="email"> </p>
+        </fieldset>
+            
+        <fieldset>
+            <h2>Conceptos básicos</h2>
+            <p>Ruby me ha parecido:</p>
+            <p><label> <input type=checkbox> Fácil de entender </label></p>
+            <p><label> <input type=checkbox> Intuitivo </label></p>
+            <p><label> <input type=checkbox> Complejo </label></p>
+            <p><label> <input type=checkbox> Tedioso </label></p>
+            <p><label> <input type=checkbox> Bonito en diseño </label></p>
+            <p><label> <input type=checkbox> Completo en cuanto a funcionalidades </label></p>
+            <p><label> <input type=checkbox> Demasiado simple </label></p>
+        </fieldset>
+        <fieldset> 
+            <h2>Pequeño test sobre programación en Ruby:</h2>
+            <p>Dado el siguiente código:</p>
+            <img src= "Multimedia/Ejemplocódigo1.PNG" alt= "Código del formulario" >
+            <fieldset>
+                <legend>¿Qué hace?</legend>
+                <p><label> <input type=radio name=size  required value="Meow"> Se muestra por pantalla sólo "Meow" </label></p>
+                <p><label> <input type=radio name=size  required value="Correcta"> Se muestra por pantalla "inhala y exhala" y "Meow" </label></p>
+                <p><label> <input type=radio name=size  required value="Nada"> No se muestra nada por pantalla </label></p>
+                <p><label> <input type=radio name=size  required value="Mujer"> Se muestra por pantalla sólo "inhala y exhala" </label></p>
+                <p><label> <input type=radio name=size  required value="Ninguna"> Ninguna de las anteriores </label></p>
+            </fieldset>
+           
+        </fieldset>
+
+        <fieldset>
+            <h2>¡Deja tu opinión personal sobre Ruby!</h2>
+            <p><label>Opinión: <textarea></textarea></label></p>
+        </fieldset>
+        
+
+
+        <p><button>Enviar formulario</button></p>
+        
+    </form>
+
+    <img src= "Multimedia/HTML5-1.png" alt= "¡En HTML5 válido!" >
+    <img src= "Multimedia/CSS3-1.png" alt= "¡En CSS válido!" >
+    <address>
+        <p> Página web realizada por:
+        <a href="mailto:uo283706@uniovi.es">
+        Sara Lamuño</a></p>
+    </address>
+    
+
+</body>
+</html>
+
+
